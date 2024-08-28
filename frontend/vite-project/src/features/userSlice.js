@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState={
     currentUser:null,
-    Authneticated:false
+    Authneticated:false,
+    Type:null
 }
 export const userSlice=createSlice({
     name:"User",
@@ -12,6 +13,9 @@ export const userSlice=createSlice({
         },
         Authenticate:(state,action)=>{
             state.Authneticated=action.payload;
+        },
+        UserType:(state,action)=>{
+            state.Type=action.payload;
         }
     }
 })
