@@ -22,7 +22,7 @@ function Checkout() {
                     <div className=' h-auto w-full sm:flex sm:flex-row items-center p-2   sm:h-auto  flex flex-col itmes-center border-b-2 border-gray-200 bg-gray-100' id='1'>
                         <div className='sm:w-1/3 w-28'><img  className='sm:w-full sm:h-full sm:object-contain' src="https://imgs.search.brave.com/Z7HnGmMk7pDU3NWfUeGwTvBny_HjFT57rs31dNBLluQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9nb3Zp/c3VhbGx5LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/My9zaGFkb3dzLWFz/LXByb2R1Y3QtaW1h/Z2UtaWRlYXMucG5n" alt="" /></div>
                         <div className='font-bold w-2/3 h-full  p-1 flex flex-col items-center'>
-                            <div className='font-light'>ihjfdvghdbvffcdbvvcsdc shchjgdcfe</div>
+                            <div className='font-light text-md'>ihjfdvghdbvffcdbvvcsdc shchjgdcfe  csdchjndcbd shdcsdhbc hjdchsd  gfdc sjj</div>
                             <div className='font-bold'>$Price</div>
                             <div >Stars</div>
                             <div className='h-auto w-auto bg-yellow-500 text-xs sm:text-sm pl-1 pr-1 subpixel-antialiased '><button className=' h-auto' onClick={handleDelete}>Remove the Basket</button></div>

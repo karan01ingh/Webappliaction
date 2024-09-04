@@ -14,24 +14,22 @@ function Signup() {
         <div className='text-3xl font-sans'>Create account</div>
         <div className='flex flex-col pt-2 text-md'>
             <label htmlFor="name">Your Name</label>
-            <input type="text" id='name'  className='h-8 rounded-sm outline-yellow-500 bordrer-1 border-gray-200 pl-1' required/> 
+            <input type="text" id='name'  className='h-8 rounded-sm outline-yellow-500 bordrer-2 border-gray-300 pl-1' required/> 
         </div>
         <div className='flex flex-col pt-2'>
               <div className='flex justify-between'> <button>Email</button></div>
-              <input type="password" id='email' className='h-8 rounded-sm outline-yellow-500 border-1 pl-1' required />
+              <input type="password" id='email' className='h-8 rounded-sm outline-yellow-500 border-2 border-gray-300 pl-1' required />
         </div>
         <div className='flex flex-col pt-2'>
               <div className='flex justify-between'><label htmlFor="phonenumber">Password</label></div>
-              <input type="password" id='Password' className='h-8 rounded-sm outline-yellow-500 border-1 pl-1' placeholder='At least 6 characters' required />
+              <input type="password" id='Password' className='h-8 rounded-sm outline-yellow-500 border-2 border-gray-300 pl-1' placeholder='At least 6 characters' required />
         </div>
         <div className='flex flex-col pt-2'>
               <div className='flex justify-between'><label htmlFor="repass">Re-enter Password</label></div>
-              <input type="password" id='repass' className='h-8 rounded-sm outline-yellow-500 border-1 pl-1' required />
+              <input type="password" id='repass' className='h-8 rounded-sm outline-yellow-500 border-2 border-gray-300 pl-1' required />
         </div>
         <div className='w-full bg-yellow-500 text-center p-2 mt-4 rounded-md'><button onClick={handlesignIn}>Create your Account</button></div>
         <br />
-        <div className='text-center'>⎯⎯⎯⎯⎯⎯⎯⎯⎯ New to Amazon? ⎯⎯⎯⎯⎯⎯⎯⎯⎯</div>
-        <div  className='w-full bg-gray-200 text-center p-2 mt-4 rounded-md border-gray-300'><button  onClick={handlenewaccount}>create New Account</button></div>
         <br/>
         <div>By sigining in you are agreeing to our <span className='text-blue-500'> condition of Use and sale </span>and our <span className='text-blue-500'>Privacy Notice</span></div>
       </div>
