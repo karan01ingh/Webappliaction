@@ -1,10 +1,9 @@
 import React from 'react'
 function Signup() {
-    const handlesignIn=()=>{
-        console.log("done with sign in");
-    }
-    const handlenewaccount=()=>{
-        console.log("done with new account");
+    const handlenewaccount=async ()=>{
+        e.preventdefault();
+
+
     }
   return (
     <div className='w-screen h-screen flex justify-center p-5'>
@@ -28,7 +27,7 @@ function Signup() {
               <div className='flex justify-between'><label htmlFor="repass">Re-enter Password</label></div>
               <input type="password" id='repass' className='h-8 rounded-sm outline-yellow-500 border-2 border-gray-300 pl-1' required />
         </div>
-        <div className='w-full bg-yellow-500 text-center p-2 mt-4 rounded-md'><button onClick={handlesignIn}>Create your Account</button></div>
+        <div className='w-full bg-yellow-500 text-center p-2 mt-4 rounded-md'><button onClick={handlenewaccount}>Create your Account</button></div>
         <br />
         <br/>
         <div>By sigining in you are agreeing to our <span className='text-blue-500'> condition of Use and sale </span>and our <span className='text-blue-500'>Privacy Notice</span></div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Star} from "lucide-react"
 function Checkout() {
     const [items,setitems]=useState(0);
     const [totalprice,settotalprice]=useState(0);
@@ -24,7 +25,12 @@ function Checkout() {
                         <div className='font-bold w-2/3 h-full  p-1 flex flex-col items-center'>
                             <div className='font-light text-md'>ihjfdvghdbvffcdbvvcsdc shchjgdcfe  csdchjndcbd shdcsdhbc hjdchsd  gfdc sjj</div>
                             <div className='font-bold'>$Price</div>
-                            <div >Stars</div>
+                            <div className='flex '>  
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                            </div>
                             <div className='h-auto w-auto bg-yellow-500 text-xs sm:text-sm pl-1 pr-1 subpixel-antialiased '><button className=' h-auto' onClick={handleDelete}>Remove the Basket</button></div>
                         </div>
                     </div>
@@ -34,7 +40,12 @@ function Checkout() {
                         <div className='font-bold w-2/3 h-full  p-1 flex flex-col items-center'>
                             <div className='font-light'>ihjfdvghdbvffcdbvvcsdc shchjgdcfe</div>
                             <div className='font-bold'>$Price</div>
-                            <div >Stars</div>
+                            <div className='flex'>
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                                    <Star size={16} color="#fbbb09" strokeWidth={3} />
+                            </div>
                             <div className='h-auto w-auto bg-yellow-500 text-xs sm:text-sm pl-1 pr-1 subpixel-antialiased '><button className=' h-auto' onClick={handleDelete}>Remove the Basket</button></div>
                         </div>
                     </div>
